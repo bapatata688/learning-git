@@ -1,0 +1,13 @@
+services:
+  db:
+    build: .
+    container_name: sql_practice_1
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 0daeb0x
+      MYSQL_DATABASE: insal
+    volumes:
+      - db_data:/var/lib/mysql
+volumes:
+  db_data:
