@@ -7,3 +7,4 @@ insert into user (name, price, image, description) values ('samsung', 'price', '
 insert into user (name, price, image, description) values ('samsung', 'price', 'image', 'description');
 insert into user (name, price, image, description) values ('samsung', 'price', 'image', 'description');
 insert into user (name, price, image, description) values ('samsung', 'price', 'image', 'description');
+DROP DATABASE insl;
